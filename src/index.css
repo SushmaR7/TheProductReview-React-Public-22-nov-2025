@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom body styling */
+@layer base {
+  body {
+    @apply  text-black font-sans ;
+  }
+}
